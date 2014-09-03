@@ -192,6 +192,34 @@ Creating contents types
 
 *TODO*.
 
+
+
+Development installation
+========================
+
+To get a basic development installation running follow the steps below: ::
+
+    $ git clone https://github.com/plone-ve/plonedemos.suite.git
+    $ cd plonedemos.suite
+    $ python bootstrap.py
+    $ bin/buildout -vvvvvvvvN
+
+Running the site
+----------------
+Once the buildout has finished, you can access the site by starting up Plone. ::
+
+    $ bin/zeoserver start
+    $ bin/instance fg
+
+Go to the site in your browser: http://localhost:8080/manage
+
+::
+
+    username: admin
+    password: admin
+
+Then create a Plone Site object, later go to Site setup > Components, and adds the Plone products manually.
+
 Support
 =======
 
