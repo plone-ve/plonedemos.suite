@@ -12,6 +12,14 @@ Creating contents
 
 Plone demo suite includes some Plone products and configurations like these:
 
+- `collective.ckeditor: <http://plone.org/products/fckeditor>`_.
+
+- `Products.kupu: <https://pypi.python.org/pypi/Products.kupu>`_.
+
+- `Products.Ploneboard: <https://pypi.python.org/pypi/Products.Ploneboard>`_.
+
+- `collective.disqus: <https://pypi.python.org/pypi/collective.disqus>`_.
+
 - `collective.loremipsum <https://pypi.python.org/pypi/collective.loremipsum>`_,
   is a developer tool to create dummy content with populated Lorem Ipsum and
   dummy members inside your Plone site.
